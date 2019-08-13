@@ -25,7 +25,7 @@ def quantify_image(image):
 	# return the feature vector
 	return features
 
-imagePath="dataset\\spiral\\training\\parkinson\\V04PE03.png"
+imagePath="V08PE01.png"
 image = cv2.imread(imagePath)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 image = cv2.resize(image, (200, 200))
