@@ -10,4 +10,4 @@ def hello():
     return jsonify(items)
 
 if __name__ == '__main__':
-    app.run(port=80,debug=True)
+    app.run(host="akuminademo1.cloudapp.net",port=81,debug=True)
